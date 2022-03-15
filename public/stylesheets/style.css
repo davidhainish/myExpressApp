@@ -3,6 +3,33 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
-a {
-  color: #00B7FF;
+.btn {
+  background-color: rgba(158,175,86,1.0);
+  border: 1px solid #9eaf56;
+  border-radius: 5px;
+  color: #fff;
+  padding: 15px 28px;
+  font-size: .75rem;
+  font-weight: bold;
+  display: inline-block;
+  width: auto;
+  height: auto;
+  margin: 0;
+  cursor: pointer;
+  line-height: 1.1;
+  letter-spacing: .03em;
+  white-space: normal;
+  word-break: break-word;
+  text-align: center;
+  text-decoration: none;
+  position: relative;
+  transition: background-color .15s linear,border-color .15s linear,color .15s linear;
+  text-decoration: none;
+}
+
+.btn:hover {
+  color: #FFF;
+  background-color: rgba(99,109,50,1.0);
+  border-color: rgba(99,109,50,1.0);
+  text-decoration: none;
 }
